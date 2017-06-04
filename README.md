@@ -8,23 +8,37 @@
 ## 準備
 ### python系の準備
 - Python3 インストール. [Anaconda3](https://www.continuum.io/downloads)を使うと簡単です。
-- pip install tensorflow
-- pip install tqdm
-- pip install sklearn
-- pip install tabulate
-- pip install tfgraphviz
-- pip install seaborn
-- pip install jupyter
+- python ライブラリのインストール
+
+```
+$ pip install tensorflow
+$ pip install tqdm
+$ pip install sklearn
+$ pip install tabulate
+$ pip install tfgraphviz
+$ pip install seaborn
+$ pip install jupyter
+```
 
 ### その他必要ライブリの準備
-- sudo yum install graphviz
+- graphviz のインストール
+
+```
+# RHEL系Linux の場合
+$ sudo yum install graphviz
+```
 
 ### MNIST 画像データのダウンロード
-- cd MNIST_data
-- wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
-- wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
-- wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
-- wget http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+- MNIST_data ディレクトリにMNISTの画像とラベルデータをダウンロードします。
+
+```
+# Linuxの場合
+$ cd MNIST_data
+$ wget http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+$ wget http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+$ wget http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+$ wget http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+```
 
 ## 使用方法
 - jupyter notebookを起動してブラウザで各Demoのnotebookを参照してください。
