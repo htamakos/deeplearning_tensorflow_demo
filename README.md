@@ -9,7 +9,7 @@
 ### python系の準備
 - Python3 インストール. [Anaconda3](https://www.continuum.io/downloads)を使うと簡単です。
 - pip install tensorflow
-- pip install progressbar2
+- pip install tqdm
 - pip install sklearn
 - pip install tabulate
 - pip install tfgraphviz
